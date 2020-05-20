@@ -1,6 +1,6 @@
 # ffmpeg-builds-page
 
-The Zeranoe FFmpeg Builds page uses Vue.js, BootstrapVue, axios, and Moment.js.
+The Zeranoe FFmpeg Builds Page uses Vue.js, BootstrapVue, axios, and Moment.js.
 Project scaffolding is provided by Vue CLI, and packages are managed with Yarn.
 
 ## Project setup
