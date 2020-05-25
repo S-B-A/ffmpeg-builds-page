@@ -430,7 +430,7 @@ export default {
     }
   },
   mounted: function() {
-    axios.get(`./builds.json?s=${Math.floor(Date.now() / 1000)}`)
+    axios.get(`./builds.json?s=${Math.floor(Date.now() / 3600000)}`)
       .then(res => {
         this.option.version.options.release = res.data.release;
         this.option.version.options.git = res.data.git;
